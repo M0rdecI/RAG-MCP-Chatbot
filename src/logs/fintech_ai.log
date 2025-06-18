@@ -1,0 +1,897 @@
+2025-06-09 10:38:59,251 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 10:38:59,251 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 10:39:08,186 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-06-09 10:41:30,130 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 10:41:30,130 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 10:41:35,172 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 10:41:38,151 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 10:41:38,152 - root - ERROR - Error verifying Ollama model: 'name'
+2025-06-09 10:57:53,752 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 10:57:53,752 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 10:57:57,696 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 10:57:58,186 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 10:57:58,187 - root - INFO - Registered tool: process_documents
+2025-06-09 10:57:58,187 - root - INFO - Registered tool: index_documents
+2025-06-09 10:57:58,187 - root - INFO - Registered tool: query_vector_store
+2025-06-09 10:57:58,188 - root - INFO - Registered tool: web_search
+2025-06-09 10:57:58,188 - root - INFO - Registered tool: format_response
+2025-06-09 10:57:58,188 - root - INFO - Registered tool: generate_response
+2025-06-09 10:58:29,054 - root - ERROR - Error executing tool format_response: 'coroutine' object is not iterable
+2025-06-09 11:02:01,463 - root - ERROR - Error executing tool format_response: 'coroutine' object is not iterable
+2025-06-09 11:03:00,987 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:03:00,988 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:03:05,126 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:03:05,583 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:03:05,583 - root - INFO - Registered tool: process_documents
+2025-06-09 11:03:05,584 - root - INFO - Registered tool: index_documents
+2025-06-09 11:03:05,584 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:03:05,584 - root - INFO - Registered tool: web_search
+2025-06-09 11:03:05,584 - root - INFO - Registered tool: format_response
+2025-06-09 11:03:05,584 - root - INFO - Registered tool: generate_response
+2025-06-09 11:03:17,921 - root - WARNING - No results found for query: Hello
+2025-06-09 11:11:45,884 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:11:45,884 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:11:49,720 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:11:50,172 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:11:50,173 - root - INFO - Registered tool: process_documents
+2025-06-09 11:11:50,173 - root - INFO - Registered tool: index_documents
+2025-06-09 11:11:50,174 - root - INFO - Registered tool: get_document_count
+2025-06-09 11:11:50,174 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:11:50,174 - root - INFO - Registered tool: web_search
+2025-06-09 11:11:50,175 - root - INFO - Registered tool: format_response
+2025-06-09 11:11:50,175 - root - INFO - Registered tool: generate_response
+2025-06-09 11:12:11,799 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:12:53,070 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:14:09,069 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:15:36,917 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:16:08,448 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:37:01,641 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:37:01,641 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:37:06,551 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:37:07,000 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:37:07,001 - root - INFO - Registered tool: process_documents
+2025-06-09 11:37:07,001 - root - INFO - Registered tool: index_documents
+2025-06-09 11:37:07,002 - root - INFO - Registered tool: get_document_count
+2025-06-09 11:37:07,002 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:37:07,002 - root - INFO - Registered tool: web_search
+2025-06-09 11:37:07,002 - root - INFO - Registered tool: format_response
+2025-06-09 11:37:07,002 - root - INFO - Registered tool: generate_response
+2025-06-09 11:37:25,442 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:37:50,143 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:38:13,439 - root - ERROR - Directory not found: files_data
+2025-06-09 11:42:50,486 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 11:42:50,487 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 11:42:50,487 - root - INFO - Ensured directory exists: files_data
+2025-06-09 11:42:50,488 - root - INFO - Ensured directory exists: logs
+2025-06-09 11:42:50,490 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:42:50,490 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:42:54,711 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:42:55,170 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:42:55,171 - root - INFO - Registered tool: process_documents
+2025-06-09 11:42:55,171 - root - INFO - Registered tool: index_documents
+2025-06-09 11:42:55,171 - root - INFO - Registered tool: get_document_count
+2025-06-09 11:42:55,171 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:42:55,171 - root - INFO - Registered tool: web_search
+2025-06-09 11:42:55,171 - root - INFO - Registered tool: format_response
+2025-06-09 11:42:55,172 - root - INFO - Registered tool: generate_response
+2025-06-09 11:43:14,053 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 11:46:54,963 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 11:46:54,963 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 11:46:54,964 - root - INFO - Ensured directory exists: files_data
+2025-06-09 11:46:54,964 - root - INFO - Ensured directory exists: logs
+2025-06-09 11:46:54,966 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:46:54,966 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:46:58,745 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:46:59,198 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:46:59,199 - root - INFO - Registered tool: process_documents
+2025-06-09 11:46:59,199 - root - INFO - Registered tool: index_documents
+2025-06-09 11:46:59,199 - root - INFO - Registered tool: get_document_count
+2025-06-09 11:46:59,199 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:46:59,200 - root - INFO - Registered tool: web_search
+2025-06-09 11:46:59,200 - root - INFO - Registered tool: format_response
+2025-06-09 11:46:59,200 - root - INFO - Registered tool: generate_response
+2025-06-09 11:46:59,200 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 11:46:59,206 - root - INFO - No documents indexed, starting initial indexing...
+2025-06-09 11:46:59,331 - root - ERROR - Error processing PDF files_data\Fintech Revenue Collection System User Manual.pdf: 1 validation error for Document
+metadata.pages
+  Input should be a valid string [type=string_type, input_value=10, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-06-09 11:47:04,784 - root - ERROR - Error processing PDF files_data\Fintech Revenue Collection System User Manual.pdf: 1 validation error for Document
+metadata.pages
+  Input should be a valid string [type=string_type, input_value=10, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-06-09 11:49:43,266 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 11:49:43,267 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 11:49:43,267 - root - INFO - Ensured directory exists: files_data
+2025-06-09 11:49:43,267 - root - INFO - Ensured directory exists: logs
+2025-06-09 11:49:43,269 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:49:43,270 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:49:46,888 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:49:47,335 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:49:47,336 - root - INFO - Registered tool: process_documents
+2025-06-09 11:49:47,336 - root - INFO - Registered tool: index_documents
+2025-06-09 11:49:47,337 - root - INFO - Registered tool: get_document_count
+2025-06-09 11:49:47,337 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:49:47,337 - root - INFO - Registered tool: web_search
+2025-06-09 11:49:47,337 - root - INFO - Registered tool: format_response
+2025-06-09 11:49:47,337 - root - INFO - Registered tool: generate_response
+2025-06-09 11:49:47,338 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 11:49:47,341 - root - INFO - No documents indexed, starting initial indexing...
+2025-06-09 11:49:47,465 - root - INFO - Successfully processed: Fintech Revenue Collection System User Manual.pdf
+2025-06-09 11:49:47,468 - root - INFO - Successfully processed 1 documents
+2025-06-09 11:49:47,651 - root - INFO - Initially indexed 1 documents
+2025-06-09 11:51:08,315 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 11:51:08,315 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 11:51:08,316 - root - INFO - Ensured directory exists: files_data
+2025-06-09 11:51:08,316 - root - INFO - Ensured directory exists: logs
+2025-06-09 11:51:08,318 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:51:08,319 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:51:12,044 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:51:12,495 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:51:12,496 - root - INFO - Registered tool: process_documents
+2025-06-09 11:51:12,496 - root - INFO - Registered tool: index_documents
+2025-06-09 11:51:12,496 - root - INFO - Registered tool: get_document_count
+2025-06-09 11:51:12,497 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:51:12,497 - root - INFO - Registered tool: web_search
+2025-06-09 11:51:12,497 - root - INFO - Registered tool: format_response
+2025-06-09 11:51:12,497 - root - INFO - Registered tool: generate_response
+2025-06-09 11:51:12,498 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 11:56:49,778 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 11:56:49,778 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 11:56:49,779 - root - INFO - Ensured directory exists: files_data
+2025-06-09 11:56:49,779 - root - INFO - Ensured directory exists: logs
+2025-06-09 11:56:49,781 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 11:56:49,781 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 11:56:53,576 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 11:56:54,169 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 11:56:54,169 - root - INFO - Registered tool: process_documents
+2025-06-09 11:56:54,170 - root - INFO - Registered tool: index_documents
+2025-06-09 11:56:54,170 - root - INFO - Registered tool: get_document_count
+2025-06-09 11:56:54,170 - root - INFO - Registered tool: query_vector_store
+2025-06-09 11:56:54,170 - root - INFO - Registered tool: web_search
+2025-06-09 11:56:54,170 - root - INFO - Registered tool: format_response
+2025-06-09 11:56:54,171 - root - INFO - Registered tool: generate_response
+2025-06-09 11:56:54,171 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 11:56:54,173 - root - INFO - No documents indexed, starting initial indexing...
+2025-06-09 11:56:54,303 - root - INFO - Successfully processed: Fintech Revenue Collection System User Manual.pdf
+2025-06-09 11:56:54,305 - root - INFO - Successfully processed 22 documents
+2025-06-09 11:56:55,155 - root - INFO - Initially indexed 22 documents
+2025-06-09 12:04:59,000 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:04:59,000 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:04:59,001 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:04:59,001 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:04:59,003 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:04:59,004 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:05:03,899 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 12:05:04,397 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:05:04,397 - root - INFO - Registered tool: process_documents
+2025-06-09 12:05:04,398 - root - INFO - Registered tool: index_documents
+2025-06-09 12:05:04,398 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:05:04,398 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:05:04,398 - root - INFO - Registered tool: web_search
+2025-06-09 12:05:04,399 - root - INFO - Registered tool: format_response
+2025-06-09 12:05:04,399 - root - INFO - Registered tool: generate_response
+2025-06-09 12:05:04,399 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:07:20,684 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:07:20,684 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:07:20,685 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:07:20,685 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:07:20,687 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:07:20,687 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:07:24,988 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 12:07:25,442 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:07:25,443 - root - INFO - Registered tool: process_documents
+2025-06-09 12:07:25,443 - root - INFO - Registered tool: index_documents
+2025-06-09 12:07:25,444 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:07:25,444 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:07:25,444 - root - INFO - Registered tool: web_search
+2025-06-09 12:07:25,444 - root - INFO - Registered tool: format_response
+2025-06-09 12:07:25,444 - root - INFO - Registered tool: generate_response
+2025-06-09 12:07:25,445 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:11:49,346 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:11:49,347 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:11:49,347 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:11:49,348 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:11:49,349 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:11:49,350 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:11:53,372 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 12:11:53,852 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:11:53,852 - root - INFO - Registered tool: process_documents
+2025-06-09 12:11:53,852 - root - INFO - Registered tool: index_documents
+2025-06-09 12:11:53,853 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:11:53,853 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:11:53,853 - root - INFO - Registered tool: web_search
+2025-06-09 12:11:53,853 - root - INFO - Registered tool: format_response
+2025-06-09 12:11:53,854 - root - INFO - Registered tool: generate_response
+2025-06-09 12:11:53,854 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:11:53,857 - root - INFO - No documents indexed, starting initial indexing...
+2025-06-09 12:11:53,981 - root - INFO - Successfully processed: Fintech Revenue Collection System User Manual.pdf
+2025-06-09 12:11:53,983 - root - INFO - Successfully processed 22 documents
+2025-06-09 12:11:54,828 - root - INFO - Initially indexed 22 documents
+2025-06-09 12:24:20,928 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:24:20,928 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:24:20,928 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:24:20,928 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:24:20,930 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:24:20,931 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:24:24,885 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 12:24:25,340 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:24:25,341 - root - INFO - Registered tool: process_documents
+2025-06-09 12:24:25,341 - root - INFO - Registered tool: index_documents
+2025-06-09 12:24:25,341 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:24:25,341 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:24:25,341 - root - INFO - Registered tool: web_search
+2025-06-09 12:24:25,341 - root - INFO - Registered tool: format_response
+2025-06-09 12:24:25,342 - root - INFO - Registered tool: generate_response
+2025-06-09 12:24:25,342 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:24:46,364 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 12:26:01,512 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 12:27:42,659 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 12:29:37,934 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 12:31:36,981 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 12:36:56,845 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:36:56,846 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:36:56,846 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:36:56,846 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:36:56,848 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:36:56,849 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:37:01,047 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 12:37:01,530 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:37:01,531 - root - INFO - Registered tool: process_documents
+2025-06-09 12:37:01,531 - root - INFO - Registered tool: index_documents
+2025-06-09 12:37:01,531 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:37:01,532 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:37:01,532 - root - INFO - Registered tool: web_search
+2025-06-09 12:37:01,532 - root - INFO - Registered tool: format_response
+2025-06-09 12:37:01,532 - root - INFO - Registered tool: generate_response
+2025-06-09 12:37:01,533 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:38:13,641 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 12:40:41,019 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 12:45:00,026 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:45:00,026 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:45:00,027 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:45:00,027 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:45:00,029 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:45:00,029 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:45:03,829 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 12:45:04,288 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:45:04,289 - root - INFO - Registered tool: process_documents
+2025-06-09 12:45:04,289 - root - INFO - Registered tool: index_documents
+2025-06-09 12:45:04,289 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:45:04,290 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:45:04,290 - root - INFO - Registered tool: web_search
+2025-06-09 12:45:04,290 - root - INFO - Registered tool: format_response
+2025-06-09 12:45:04,290 - root - INFO - Registered tool: generate_response
+2025-06-09 12:45:04,291 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:51:20,756 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:51:20,756 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:51:20,757 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:51:20,757 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:51:20,759 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:51:20,760 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:51:24,362 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:51:24,362 - root - INFO - Registered tool: process_documents
+2025-06-09 12:51:24,363 - root - INFO - Registered tool: index_documents
+2025-06-09 12:51:24,363 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:51:24,363 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:51:24,363 - root - INFO - Registered tool: web_search
+2025-06-09 12:51:24,363 - root - INFO - Registered tool: format_response
+2025-06-09 12:51:24,364 - root - INFO - Registered tool: generate_response
+2025-06-09 12:51:24,364 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:51:45,639 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:51:45,639 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:51:45,639 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:51:45,640 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:51:45,642 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:51:45,643 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:51:48,886 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:51:48,886 - root - INFO - Registered tool: process_documents
+2025-06-09 12:51:48,886 - root - INFO - Registered tool: index_documents
+2025-06-09 12:51:48,887 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:51:48,887 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:51:48,887 - root - INFO - Registered tool: web_search
+2025-06-09 12:51:48,887 - root - INFO - Registered tool: format_response
+2025-06-09 12:51:48,887 - root - INFO - Registered tool: generate_response
+2025-06-09 12:51:48,888 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 12:53:03,594 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 12:53:03,595 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 12:53:03,595 - root - INFO - Ensured directory exists: files_data
+2025-06-09 12:53:03,596 - root - INFO - Ensured directory exists: logs
+2025-06-09 12:53:03,598 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 12:53:03,598 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 12:53:07,506 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 12:53:07,507 - root - INFO - Registered tool: process_documents
+2025-06-09 12:53:07,507 - root - INFO - Registered tool: index_documents
+2025-06-09 12:53:07,507 - root - INFO - Registered tool: get_document_count
+2025-06-09 12:53:07,508 - root - INFO - Registered tool: query_vector_store
+2025-06-09 12:53:07,508 - root - INFO - Registered tool: web_search
+2025-06-09 12:53:07,508 - root - INFO - Registered tool: format_response
+2025-06-09 12:53:07,508 - root - INFO - Registered tool: generate_response
+2025-06-09 12:53:07,509 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:29:44,584 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:29:44,584 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:29:44,585 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:29:44,585 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:29:44,587 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:29:44,588 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:29:48,416 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 13:29:48,907 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 13:29:48,908 - root - INFO - Registered tool: process_documents
+2025-06-09 13:29:48,909 - root - INFO - Registered tool: index_documents
+2025-06-09 13:29:48,909 - root - INFO - Registered tool: get_document_count
+2025-06-09 13:29:48,909 - root - INFO - Registered tool: query_vector_store
+2025-06-09 13:29:48,909 - root - INFO - Registered tool: web_search
+2025-06-09 13:29:48,910 - root - INFO - Registered tool: format_response
+2025-06-09 13:29:48,910 - root - INFO - Registered tool: generate_response
+2025-06-09 13:29:48,910 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:30:48,235 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-06-09 13:30:48,237 - root - ERROR - Error generating response: llama runner process has terminated: cudaMalloc failed: out of memory (status code: 500)
+2025-06-09 13:31:08,382 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-06-09 13:31:08,383 - root - ERROR - Error generating response: POST predict: Post "http://127.0.0.1:54412/completion": read tcp 127.0.0.1:54414->127.0.0.1:54412: wsarecv: An existing connection was forcibly closed by the remote host. (status code: 500)
+2025-06-09 13:31:35,440 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-06-09 13:31:35,441 - root - ERROR - Error generating response: POST predict: Post "http://127.0.0.1:54426/completion": read tcp 127.0.0.1:54428->127.0.0.1:54426: wsarecv: An existing connection was forcibly closed by the remote host. (status code: 500)
+2025-06-09 13:35:11,801 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 13:36:14,920 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 13:38:42,806 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:38:42,807 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:38:42,807 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:38:42,807 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:38:42,809 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:38:42,810 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:40:00,448 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:40:00,448 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:40:00,449 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:40:00,449 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:40:00,451 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:40:00,451 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:40:04,453 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 13:40:04,913 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 13:40:04,914 - root - INFO - Registered tool: process_documents
+2025-06-09 13:40:04,914 - root - INFO - Registered tool: index_documents
+2025-06-09 13:40:04,914 - root - INFO - Registered tool: get_document_count
+2025-06-09 13:40:04,915 - root - INFO - Registered tool: query_vector_store
+2025-06-09 13:40:04,915 - root - INFO - Registered tool: web_search
+2025-06-09 13:40:04,915 - root - INFO - Registered tool: format_response
+2025-06-09 13:40:04,915 - root - INFO - Registered tool: generate_response
+2025-06-09 13:40:04,916 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:41:46,601 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:41:46,602 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:41:46,602 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:41:46,603 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:41:46,605 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:41:46,606 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:41:50,183 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 13:41:50,184 - root - INFO - Registered tool: process_documents
+2025-06-09 13:41:50,184 - root - INFO - Registered tool: index_documents
+2025-06-09 13:41:50,184 - root - INFO - Registered tool: get_document_count
+2025-06-09 13:41:50,184 - root - INFO - Registered tool: query_vector_store
+2025-06-09 13:41:50,184 - root - INFO - Registered tool: web_search
+2025-06-09 13:41:50,185 - root - INFO - Registered tool: format_response
+2025-06-09 13:41:50,185 - root - INFO - Registered tool: generate_response
+2025-06-09 13:41:50,185 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:41:57,712 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-06-09 13:41:57,713 - root - ERROR - Error generating response: POST predict: Post "http://127.0.0.1:54884/completion": read tcp 127.0.0.1:54888->127.0.0.1:54884: wsarecv: An existing connection was forcibly closed by the remote host. (status code: 500)
+2025-06-09 13:42:05,369 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:42:05,370 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:42:05,370 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:42:05,370 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:42:05,372 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:42:05,373 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:42:08,540 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 13:42:08,541 - root - INFO - Registered tool: process_documents
+2025-06-09 13:42:08,541 - root - INFO - Registered tool: index_documents
+2025-06-09 13:42:08,541 - root - INFO - Registered tool: get_document_count
+2025-06-09 13:42:08,542 - root - INFO - Registered tool: query_vector_store
+2025-06-09 13:42:08,542 - root - INFO - Registered tool: web_search
+2025-06-09 13:42:08,542 - root - INFO - Registered tool: format_response
+2025-06-09 13:42:08,542 - root - INFO - Registered tool: generate_response
+2025-06-09 13:42:08,542 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:42:16,663 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-06-09 13:42:16,664 - root - ERROR - Error generating response: POST predict: Post "http://127.0.0.1:54899/completion": read tcp 127.0.0.1:54901->127.0.0.1:54899: wsarecv: An existing connection was forcibly closed by the remote host. (status code: 500)
+2025-06-09 13:42:49,086 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:42:49,086 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:42:49,087 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:42:49,087 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:42:49,089 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:42:49,089 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:42:52,231 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 13:42:52,232 - root - INFO - Registered tool: process_documents
+2025-06-09 13:42:52,232 - root - INFO - Registered tool: index_documents
+2025-06-09 13:42:52,232 - root - INFO - Registered tool: get_document_count
+2025-06-09 13:42:52,232 - root - INFO - Registered tool: query_vector_store
+2025-06-09 13:42:52,232 - root - INFO - Registered tool: web_search
+2025-06-09 13:42:52,233 - root - INFO - Registered tool: format_response
+2025-06-09 13:42:52,233 - root - INFO - Registered tool: generate_response
+2025-06-09 13:42:52,233 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:43:04,350 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-06-09 13:43:04,351 - root - ERROR - Error generating response: POST predict: Post "http://127.0.0.1:54943/completion": read tcp 127.0.0.1:54945->127.0.0.1:54943: wsarecv: An existing connection was forcibly closed by the remote host. (status code: 500)
+2025-06-09 13:52:51,399 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:52:51,400 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:52:51,400 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:52:51,400 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:52:51,402 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:52:51,402 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:52:54,960 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 13:52:54,960 - root - INFO - Registered tool: process_documents
+2025-06-09 13:52:54,961 - root - INFO - Registered tool: index_documents
+2025-06-09 13:52:54,961 - root - INFO - Registered tool: get_document_count
+2025-06-09 13:52:54,961 - root - INFO - Registered tool: query_vector_store
+2025-06-09 13:52:54,962 - root - INFO - Registered tool: web_search
+2025-06-09 13:52:54,962 - root - INFO - Registered tool: format_response
+2025-06-09 13:52:54,962 - root - INFO - Registered tool: generate_response
+2025-06-09 13:52:54,963 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:53:01,350 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 500 Internal Server Error"
+2025-06-09 13:53:01,351 - root - ERROR - Error generating response: llama runner process has terminated: cudaMalloc failed: out of memory (status code: 500)
+2025-06-09 13:55:46,256 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 13:55:46,257 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 13:55:46,257 - root - INFO - Ensured directory exists: files_data
+2025-06-09 13:55:46,258 - root - INFO - Ensured directory exists: logs
+2025-06-09 13:55:46,260 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 13:55:46,260 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 13:55:49,400 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 13:55:49,401 - root - INFO - Registered tool: process_documents
+2025-06-09 13:55:49,401 - root - INFO - Registered tool: index_documents
+2025-06-09 13:55:49,401 - root - INFO - Registered tool: get_document_count
+2025-06-09 13:55:49,401 - root - INFO - Registered tool: query_vector_store
+2025-06-09 13:55:49,402 - root - INFO - Registered tool: web_search
+2025-06-09 13:55:49,402 - root - INFO - Registered tool: format_response
+2025-06-09 13:55:49,402 - root - INFO - Registered tool: generate_response
+2025-06-09 13:55:49,402 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 13:56:10,532 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-09 14:57:43,359 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 14:57:43,359 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 14:57:43,360 - root - INFO - Ensured directory exists: files_data
+2025-06-09 14:57:43,360 - root - INFO - Ensured directory exists: logs
+2025-06-09 14:57:43,362 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 14:57:43,362 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 14:57:50,874 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 14:57:52,295 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 14:57:52,295 - root - INFO - Registered tool: process_documents
+2025-06-09 14:57:52,295 - root - INFO - Registered tool: index_documents
+2025-06-09 14:57:52,296 - root - INFO - Registered tool: get_document_count
+2025-06-09 14:57:52,296 - root - INFO - Registered tool: query_vector_store
+2025-06-09 14:57:52,296 - root - INFO - Registered tool: web_search
+2025-06-09 14:57:52,296 - root - INFO - Registered tool: format_response
+2025-06-09 14:57:52,296 - root - INFO - Registered tool: generate_response
+2025-06-09 14:57:52,297 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-09 17:46:55,833 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-09 17:46:55,833 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-09 17:46:55,834 - root - INFO - Ensured directory exists: files_data
+2025-06-09 17:46:55,834 - root - INFO - Ensured directory exists: logs
+2025-06-09 17:46:55,836 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-09 17:46:55,836 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-09 17:47:04,714 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-09 17:47:06,312 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-09 17:47:06,316 - root - INFO - Registered tool: process_documents
+2025-06-09 17:47:06,316 - root - INFO - Registered tool: index_documents
+2025-06-09 17:47:06,317 - root - INFO - Registered tool: get_document_count
+2025-06-09 17:47:06,317 - root - INFO - Registered tool: query_vector_store
+2025-06-09 17:47:06,317 - root - INFO - Registered tool: web_search
+2025-06-09 17:47:06,318 - root - INFO - Registered tool: format_response
+2025-06-09 17:47:06,318 - root - INFO - Registered tool: generate_response
+2025-06-09 17:47:06,319 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-10 10:32:52,843 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-10 10:32:52,844 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-10 10:32:52,844 - root - INFO - Ensured directory exists: files_data
+2025-06-10 10:32:52,845 - root - INFO - Ensured directory exists: logs
+2025-06-10 10:32:52,847 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-10 10:32:52,847 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-10 10:33:01,079 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-10 10:33:01,682 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-10 10:33:01,684 - root - INFO - Registered tool: process_documents
+2025-06-10 10:33:01,684 - root - INFO - Registered tool: index_documents
+2025-06-10 10:33:01,684 - root - INFO - Registered tool: get_document_count
+2025-06-10 10:33:01,684 - root - INFO - Registered tool: query_vector_store
+2025-06-10 10:33:01,685 - root - INFO - Registered tool: web_search
+2025-06-10 10:33:01,685 - root - INFO - Registered tool: format_response
+2025-06-10 10:33:01,685 - root - INFO - Registered tool: generate_response
+2025-06-10 10:33:01,685 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-10 10:33:01,691 - root - INFO - No documents indexed, starting initial indexing...
+2025-06-10 10:33:01,834 - root - INFO - Successfully processed: Fintech Revenue Collection System User Manual.pdf
+2025-06-10 10:33:01,836 - root - INFO - Successfully processed 22 documents
+2025-06-10 10:33:02,819 - root - INFO - Initially indexed 22 documents
+2025-06-10 10:33:32,065 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-10 10:34:13,481 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-10 10:35:54,987 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-10 10:54:08,757 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-10 10:55:39,542 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-10 10:57:53,294 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-10 10:57:53,294 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-10 10:57:53,295 - root - INFO - Ensured directory exists: files_data
+2025-06-10 10:57:53,295 - root - INFO - Ensured directory exists: logs
+2025-06-10 10:57:53,297 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-10 10:57:53,297 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-10 10:58:02,483 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-10 10:58:02,987 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-10 10:58:02,988 - root - INFO - Registered tool: process_documents
+2025-06-10 10:58:02,988 - root - INFO - Registered tool: index_documents
+2025-06-10 10:58:02,988 - root - INFO - Registered tool: get_document_count
+2025-06-10 10:58:02,989 - root - INFO - Registered tool: query_vector_store
+2025-06-10 10:58:02,989 - root - INFO - Registered tool: web_search
+2025-06-10 10:58:02,989 - root - INFO - Registered tool: format_response
+2025-06-10 10:58:02,989 - root - INFO - Registered tool: generate_response
+2025-06-10 10:58:02,990 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-10 10:58:55,681 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-10 10:58:55,682 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-10 10:58:55,683 - root - INFO - Ensured directory exists: files_data
+2025-06-10 10:58:55,684 - root - INFO - Ensured directory exists: logs
+2025-06-10 10:58:55,686 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-10 10:58:55,687 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-10 10:58:58,563 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-10 10:58:58,564 - root - INFO - Registered tool: process_documents
+2025-06-10 10:58:58,565 - root - INFO - Registered tool: index_documents
+2025-06-10 10:58:58,565 - root - INFO - Registered tool: get_document_count
+2025-06-10 10:58:58,565 - root - INFO - Registered tool: query_vector_store
+2025-06-10 10:58:58,566 - root - INFO - Registered tool: web_search
+2025-06-10 10:58:58,566 - root - INFO - Registered tool: format_response
+2025-06-10 10:58:58,566 - root - INFO - Registered tool: generate_response
+2025-06-10 10:58:58,567 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-10 10:59:05,347 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-10 10:59:24,971 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-10 10:59:24,972 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-10 10:59:24,973 - root - INFO - Ensured directory exists: files_data
+2025-06-10 10:59:24,974 - root - INFO - Ensured directory exists: logs
+2025-06-10 10:59:24,978 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-10 10:59:24,979 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-10 10:59:28,001 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-10 10:59:28,002 - root - INFO - Registered tool: process_documents
+2025-06-10 10:59:28,002 - root - INFO - Registered tool: index_documents
+2025-06-10 10:59:28,002 - root - INFO - Registered tool: get_document_count
+2025-06-10 10:59:28,003 - root - INFO - Registered tool: query_vector_store
+2025-06-10 10:59:28,003 - root - INFO - Registered tool: web_search
+2025-06-10 10:59:28,003 - root - INFO - Registered tool: format_response
+2025-06-10 10:59:28,003 - root - INFO - Registered tool: generate_response
+2025-06-10 10:59:28,004 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-10 11:00:26,191 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-10 14:33:23,543 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-10 14:33:23,544 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-10 14:33:23,544 - root - INFO - Ensured directory exists: files_data
+2025-06-10 14:33:23,544 - root - INFO - Ensured directory exists: logs
+2025-06-10 14:33:23,546 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-10 14:33:23,547 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-10 14:33:30,627 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-10 14:33:31,084 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-10 14:33:31,085 - root - INFO - Registered tool: process_documents
+2025-06-10 14:33:31,085 - root - INFO - Registered tool: index_documents
+2025-06-10 14:33:31,085 - root - INFO - Registered tool: get_document_count
+2025-06-10 14:33:31,085 - root - INFO - Registered tool: query_vector_store
+2025-06-10 14:33:31,086 - root - INFO - Registered tool: web_search
+2025-06-10 14:33:31,086 - root - INFO - Registered tool: format_response
+2025-06-10 14:33:31,086 - root - INFO - Registered tool: generate_response
+2025-06-10 14:33:31,087 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:04:49,283 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 17:04:49,283 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 17:04:49,283 - root - INFO - Ensured directory exists: files_data
+2025-06-11 17:04:49,284 - root - INFO - Ensured directory exists: logs
+2025-06-11 17:04:49,285 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 17:04:49,285 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 17:04:58,327 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 17:04:58,904 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 17:04:58,905 - root - INFO - Registered tool: process_documents
+2025-06-11 17:04:58,905 - root - INFO - Registered tool: index_documents
+2025-06-11 17:04:58,906 - root - INFO - Registered tool: get_document_count
+2025-06-11 17:04:58,906 - root - INFO - Registered tool: query_vector_store
+2025-06-11 17:04:58,906 - root - INFO - Registered tool: web_search
+2025-06-11 17:04:58,906 - root - INFO - Registered tool: format_response
+2025-06-11 17:04:58,906 - root - INFO - Registered tool: generate_response
+2025-06-11 17:04:58,907 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:38:44,364 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 17:38:44,365 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 17:38:44,365 - root - INFO - Ensured directory exists: files_data
+2025-06-11 17:38:44,365 - root - INFO - Ensured directory exists: logs
+2025-06-11 17:38:44,366 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 17:38:44,366 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 17:38:48,649 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-11 17:38:48,760 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 17:38:48,760 - root - INFO - Registered tool: process_documents
+2025-06-11 17:38:48,760 - root - INFO - Registered tool: index_documents
+2025-06-11 17:38:48,761 - root - INFO - Registered tool: get_document_count
+2025-06-11 17:38:48,761 - root - INFO - Registered tool: query_vector_store
+2025-06-11 17:38:48,761 - root - INFO - Registered tool: web_search
+2025-06-11 17:38:48,761 - root - INFO - Registered tool: format_response
+2025-06-11 17:38:48,761 - root - INFO - Registered tool: generate_response
+2025-06-11 17:38:48,761 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:39:11,423 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 17:39:11,424 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 17:39:11,425 - root - INFO - Ensured directory exists: files_data
+2025-06-11 17:39:11,425 - root - INFO - Ensured directory exists: logs
+2025-06-11 17:39:11,427 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 17:39:11,428 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 17:39:14,761 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 17:39:14,762 - root - INFO - Registered tool: process_documents
+2025-06-11 17:39:14,762 - root - INFO - Registered tool: index_documents
+2025-06-11 17:39:14,762 - root - INFO - Registered tool: get_document_count
+2025-06-11 17:39:14,762 - root - INFO - Registered tool: query_vector_store
+2025-06-11 17:39:14,763 - root - INFO - Registered tool: web_search
+2025-06-11 17:39:14,763 - root - INFO - Registered tool: format_response
+2025-06-11 17:39:14,763 - root - INFO - Registered tool: generate_response
+2025-06-11 17:39:14,763 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:39:34,508 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 17:41:01,759 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 17:41:01,759 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 17:41:01,760 - root - INFO - Ensured directory exists: files_data
+2025-06-11 17:41:01,761 - root - INFO - Ensured directory exists: logs
+2025-06-11 17:41:01,763 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 17:41:01,763 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 17:41:05,517 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 17:41:05,518 - root - INFO - Registered tool: process_documents
+2025-06-11 17:41:05,518 - root - INFO - Registered tool: index_documents
+2025-06-11 17:41:05,518 - root - INFO - Registered tool: get_document_count
+2025-06-11 17:41:05,518 - root - INFO - Registered tool: query_vector_store
+2025-06-11 17:41:05,518 - root - INFO - Registered tool: web_search
+2025-06-11 17:41:05,519 - root - INFO - Registered tool: format_response
+2025-06-11 17:41:05,519 - root - INFO - Registered tool: generate_response
+2025-06-11 17:41:05,519 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:42:03,279 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 17:49:29,659 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 17:49:29,659 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 17:49:29,660 - root - INFO - Ensured directory exists: files_data
+2025-06-11 17:49:29,660 - root - INFO - Ensured directory exists: logs
+2025-06-11 17:49:29,662 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 17:49:29,662 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 17:49:33,088 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 17:49:33,089 - root - INFO - Registered tool: process_documents
+2025-06-11 17:49:33,089 - root - INFO - Registered tool: index_documents
+2025-06-11 17:49:33,089 - root - INFO - Registered tool: get_document_count
+2025-06-11 17:49:33,089 - root - INFO - Registered tool: query_vector_store
+2025-06-11 17:49:33,090 - root - INFO - Registered tool: web_search
+2025-06-11 17:49:33,090 - root - INFO - Registered tool: format_response
+2025-06-11 17:49:33,090 - root - INFO - Registered tool: generate_response
+2025-06-11 17:49:33,090 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:50:54,339 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 17:56:56,078 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 17:56:56,080 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 17:56:56,081 - root - INFO - Ensured directory exists: files_data
+2025-06-11 17:56:56,082 - root - INFO - Ensured directory exists: logs
+2025-06-11 17:56:56,135 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 17:56:56,135 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 17:57:00,114 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 17:57:00,120 - root - INFO - Registered tool: process_documents
+2025-06-11 17:57:00,120 - root - INFO - Registered tool: index_documents
+2025-06-11 17:57:00,120 - root - INFO - Registered tool: get_document_count
+2025-06-11 17:57:00,121 - root - INFO - Registered tool: query_vector_store
+2025-06-11 17:57:00,121 - root - INFO - Registered tool: web_search
+2025-06-11 17:57:00,121 - root - INFO - Registered tool: format_response
+2025-06-11 17:57:00,122 - root - INFO - Registered tool: generate_response
+2025-06-11 17:57:00,122 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:57:59,527 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 17:59:04,348 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 17:59:04,349 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 17:59:04,350 - root - INFO - Ensured directory exists: files_data
+2025-06-11 17:59:04,350 - root - INFO - Ensured directory exists: logs
+2025-06-11 17:59:04,352 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 17:59:04,352 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 17:59:07,710 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 17:59:07,711 - root - INFO - Registered tool: process_documents
+2025-06-11 17:59:07,711 - root - INFO - Registered tool: index_documents
+2025-06-11 17:59:07,711 - root - INFO - Registered tool: get_document_count
+2025-06-11 17:59:07,711 - root - INFO - Registered tool: query_vector_store
+2025-06-11 17:59:07,712 - root - INFO - Registered tool: web_search
+2025-06-11 17:59:07,712 - root - INFO - Registered tool: format_response
+2025-06-11 17:59:07,712 - root - INFO - Registered tool: generate_response
+2025-06-11 17:59:07,713 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 17:59:53,643 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:00:50,479 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 18:00:50,480 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 18:00:50,481 - root - INFO - Ensured directory exists: files_data
+2025-06-11 18:00:50,481 - root - INFO - Ensured directory exists: logs
+2025-06-11 18:00:50,484 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 18:00:50,484 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 18:00:53,888 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:00:53,889 - root - INFO - Registered tool: process_documents
+2025-06-11 18:00:53,889 - root - INFO - Registered tool: index_documents
+2025-06-11 18:00:53,889 - root - INFO - Registered tool: get_document_count
+2025-06-11 18:00:53,889 - root - INFO - Registered tool: query_vector_store
+2025-06-11 18:00:53,890 - root - INFO - Registered tool: web_search
+2025-06-11 18:00:53,890 - root - INFO - Registered tool: format_response
+2025-06-11 18:00:53,890 - root - INFO - Registered tool: generate_response
+2025-06-11 18:00:53,890 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 18:01:03,186 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:11:25,365 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 18:11:25,366 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 18:11:25,367 - root - INFO - Ensured directory exists: files_data
+2025-06-11 18:11:25,367 - root - INFO - Ensured directory exists: logs
+2025-06-11 18:11:25,372 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 18:11:25,372 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 18:11:29,337 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:11:29,338 - root - INFO - Registered tool: process_documents
+2025-06-11 18:11:29,338 - root - INFO - Registered tool: index_documents
+2025-06-11 18:11:29,339 - root - INFO - Registered tool: get_document_count
+2025-06-11 18:11:29,339 - root - INFO - Registered tool: query_vector_store
+2025-06-11 18:11:29,339 - root - INFO - Registered tool: web_search
+2025-06-11 18:11:29,339 - root - INFO - Registered tool: format_response
+2025-06-11 18:11:29,339 - root - INFO - Registered tool: generate_response
+2025-06-11 18:11:29,340 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 18:13:06,321 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:18:31,320 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 18:18:31,324 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 18:18:31,325 - root - INFO - Ensured directory exists: files_data
+2025-06-11 18:18:31,326 - root - INFO - Ensured directory exists: logs
+2025-06-11 18:18:31,403 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 18:18:31,403 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 18:18:36,398 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:18:36,406 - root - INFO - Registered tool: process_documents
+2025-06-11 18:18:36,406 - root - INFO - Registered tool: index_documents
+2025-06-11 18:18:36,407 - root - INFO - Registered tool: get_document_count
+2025-06-11 18:18:36,407 - root - INFO - Registered tool: query_vector_store
+2025-06-11 18:18:36,408 - root - INFO - Registered tool: web_search
+2025-06-11 18:18:36,408 - root - INFO - Registered tool: format_response
+2025-06-11 18:18:36,409 - root - INFO - Registered tool: generate_response
+2025-06-11 18:18:36,410 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 18:19:53,592 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:22:13,712 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 18:22:13,713 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 18:22:13,714 - root - INFO - Ensured directory exists: files_data
+2025-06-11 18:22:13,714 - root - INFO - Ensured directory exists: logs
+2025-06-11 18:22:13,720 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 18:22:13,721 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 18:22:18,078 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:22:18,080 - root - INFO - Registered tool: process_documents
+2025-06-11 18:22:18,080 - root - INFO - Registered tool: index_documents
+2025-06-11 18:22:18,081 - root - INFO - Registered tool: get_document_count
+2025-06-11 18:22:18,081 - root - INFO - Registered tool: query_vector_store
+2025-06-11 18:22:18,082 - root - INFO - Registered tool: web_search
+2025-06-11 18:22:18,082 - root - INFO - Registered tool: format_response
+2025-06-11 18:22:18,082 - root - INFO - Registered tool: generate_response
+2025-06-11 18:22:18,083 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 18:23:22,041 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:26:14,188 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 18:26:14,188 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 18:26:14,189 - root - INFO - Ensured directory exists: files_data
+2025-06-11 18:26:14,189 - root - INFO - Ensured directory exists: logs
+2025-06-11 18:26:14,192 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 18:26:14,193 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 18:26:20,183 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:26:20,183 - root - INFO - Registered tool: process_documents
+2025-06-11 18:26:20,184 - root - INFO - Registered tool: index_documents
+2025-06-11 18:26:20,184 - root - INFO - Registered tool: get_document_count
+2025-06-11 18:26:20,184 - root - INFO - Registered tool: query_vector_store
+2025-06-11 18:26:20,185 - root - INFO - Registered tool: web_search
+2025-06-11 18:26:20,185 - root - INFO - Registered tool: format_response
+2025-06-11 18:26:20,185 - root - INFO - Registered tool: generate_response
+2025-06-11 18:26:20,186 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 18:26:27,814 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-11 18:26:41,199 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-11 18:26:41,199 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-11 18:26:41,200 - root - INFO - Ensured directory exists: files_data
+2025-06-11 18:26:41,200 - root - INFO - Ensured directory exists: logs
+2025-06-11 18:26:41,203 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-11 18:26:41,203 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-11 18:26:44,927 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-11 18:26:44,928 - root - INFO - Registered tool: process_documents
+2025-06-11 18:26:44,928 - root - INFO - Registered tool: index_documents
+2025-06-11 18:26:44,928 - root - INFO - Registered tool: get_document_count
+2025-06-11 18:26:44,928 - root - INFO - Registered tool: query_vector_store
+2025-06-11 18:26:44,929 - root - INFO - Registered tool: web_search
+2025-06-11 18:26:44,929 - root - INFO - Registered tool: format_response
+2025-06-11 18:26:44,929 - root - INFO - Registered tool: generate_response
+2025-06-11 18:26:44,930 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-11 18:27:34,126 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 09:51:56,767 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-12 09:51:56,768 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-12 09:51:56,768 - root - INFO - Ensured directory exists: files_data
+2025-06-12 09:51:56,768 - root - INFO - Ensured directory exists: logs
+2025-06-12 09:51:56,770 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-12 09:51:56,770 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-12 09:52:09,860 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-12 09:52:10,704 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 09:52:10,707 - root - INFO - Registered tool: process_documents
+2025-06-12 09:52:10,707 - root - INFO - Registered tool: index_documents
+2025-06-12 09:52:10,707 - root - INFO - Registered tool: get_document_count
+2025-06-12 09:52:10,707 - root - INFO - Registered tool: query_vector_store
+2025-06-12 09:52:10,707 - root - INFO - Registered tool: web_search
+2025-06-12 09:52:10,708 - root - INFO - Registered tool: format_response
+2025-06-12 09:52:10,708 - root - INFO - Registered tool: generate_response
+2025-06-12 09:52:10,708 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-12 10:17:50,976 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-12 10:17:50,977 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-12 10:17:50,977 - root - INFO - Ensured directory exists: files_data
+2025-06-12 10:17:50,978 - root - INFO - Ensured directory exists: logs
+2025-06-12 10:17:50,980 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-12 10:17:50,980 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-12 10:17:54,709 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 10:17:54,710 - root - INFO - Registered tool: process_documents
+2025-06-12 10:17:54,710 - root - INFO - Registered tool: index_documents
+2025-06-12 10:17:54,710 - root - INFO - Registered tool: get_document_count
+2025-06-12 10:17:54,710 - root - INFO - Registered tool: query_vector_store
+2025-06-12 10:17:54,711 - root - INFO - Registered tool: web_search
+2025-06-12 10:17:54,711 - root - INFO - Registered tool: format_response
+2025-06-12 10:17:54,711 - root - INFO - Registered tool: generate_response
+2025-06-12 10:17:54,712 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-12 10:19:07,166 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 10:33:27,134 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-12 10:33:27,135 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-12 10:33:27,135 - root - INFO - Ensured directory exists: files_data
+2025-06-12 10:33:27,136 - root - INFO - Ensured directory exists: logs
+2025-06-12 10:33:27,140 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-12 10:33:27,141 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-12 10:33:31,163 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 10:33:31,163 - root - INFO - Registered tool: process_documents
+2025-06-12 10:33:31,164 - root - INFO - Registered tool: index_documents
+2025-06-12 10:33:31,164 - root - INFO - Registered tool: get_document_count
+2025-06-12 10:33:31,164 - root - INFO - Registered tool: query_vector_store
+2025-06-12 10:33:31,164 - root - INFO - Registered tool: web_search
+2025-06-12 10:33:31,165 - root - INFO - Registered tool: format_response
+2025-06-12 10:33:31,165 - root - INFO - Registered tool: generate_response
+2025-06-12 10:33:31,165 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-12 10:34:19,800 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-12 11:18:12,564 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-12 11:18:12,565 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-12 11:18:12,566 - root - INFO - Ensured directory exists: files_data
+2025-06-12 11:18:12,566 - root - INFO - Ensured directory exists: logs
+2025-06-12 11:18:12,571 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-12 11:18:12,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-12 11:18:15,549 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-12 11:18:15,550 - root - INFO - Registered tool: process_documents
+2025-06-12 11:18:15,550 - root - INFO - Registered tool: index_documents
+2025-06-12 11:18:15,551 - root - INFO - Registered tool: get_document_count
+2025-06-12 11:18:15,551 - root - INFO - Registered tool: query_vector_store
+2025-06-12 11:18:15,551 - root - INFO - Registered tool: web_search
+2025-06-12 11:18:15,551 - root - INFO - Registered tool: format_response
+2025-06-12 11:18:15,552 - root - INFO - Registered tool: generate_response
+2025-06-12 11:18:15,552 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-12 11:19:28,080 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-14 21:57:21,793 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-14 21:57:21,794 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-14 21:57:21,794 - root - INFO - Ensured directory exists: files_data
+2025-06-14 21:57:21,794 - root - INFO - Ensured directory exists: logs
+2025-06-14 21:57:21,796 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-14 21:57:21,796 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-14 21:57:31,527 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-06-14 21:57:32,202 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-14 21:57:32,204 - root - INFO - Registered tool: process_documents
+2025-06-14 21:57:32,204 - root - INFO - Registered tool: index_documents
+2025-06-14 21:57:32,204 - root - INFO - Registered tool: get_document_count
+2025-06-14 21:57:32,204 - root - INFO - Registered tool: query_vector_store
+2025-06-14 21:57:32,204 - root - INFO - Registered tool: web_search
+2025-06-14 21:57:32,204 - root - INFO - Registered tool: format_response
+2025-06-14 21:57:32,205 - root - INFO - Registered tool: generate_response
+2025-06-14 21:57:32,205 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-14 22:01:27,394 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-14 22:01:27,395 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-14 22:01:27,397 - root - INFO - Ensured directory exists: files_data
+2025-06-14 22:01:27,397 - root - INFO - Ensured directory exists: logs
+2025-06-14 22:01:27,401 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-14 22:01:27,401 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-14 22:01:30,285 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-14 22:01:30,286 - root - INFO - Registered tool: process_documents
+2025-06-14 22:01:30,286 - root - INFO - Registered tool: index_documents
+2025-06-14 22:01:30,286 - root - INFO - Registered tool: get_document_count
+2025-06-14 22:01:30,286 - root - INFO - Registered tool: query_vector_store
+2025-06-14 22:01:30,286 - root - INFO - Registered tool: web_search
+2025-06-14 22:01:30,286 - root - INFO - Registered tool: format_response
+2025-06-14 22:01:30,287 - root - INFO - Registered tool: generate_response
+2025-06-14 22:01:30,287 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-14 22:02:35,024 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-14 22:15:17,028 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-14 22:15:17,029 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-14 22:15:17,030 - root - INFO - Ensured directory exists: files_data
+2025-06-14 22:15:17,031 - root - INFO - Ensured directory exists: logs
+2025-06-14 22:15:17,091 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-14 22:15:17,092 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-14 22:15:21,018 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-14 22:15:21,024 - root - INFO - Registered tool: process_documents
+2025-06-14 22:15:21,024 - root - INFO - Registered tool: index_documents
+2025-06-14 22:15:21,024 - root - INFO - Registered tool: get_document_count
+2025-06-14 22:15:21,025 - root - INFO - Registered tool: query_vector_store
+2025-06-14 22:15:21,025 - root - INFO - Registered tool: web_search
+2025-06-14 22:15:21,025 - root - INFO - Registered tool: format_response
+2025-06-14 22:15:21,025 - root - INFO - Registered tool: generate_response
+2025-06-14 22:15:21,026 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-14 22:16:53,218 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-06-14 22:33:50,212 - root - INFO - Ensured directory exists: data\vector_store
+2025-06-14 22:33:50,217 - root - INFO - Ensured directory exists: data\chat_history
+2025-06-14 22:33:50,218 - root - INFO - Ensured directory exists: files_data
+2025-06-14 22:33:50,219 - root - INFO - Ensured directory exists: logs
+2025-06-14 22:33:50,302 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-06-14 22:33:50,302 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-14 22:33:54,793 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-06-14 22:33:54,804 - root - INFO - Registered tool: process_documents
+2025-06-14 22:33:54,805 - root - INFO - Registered tool: index_documents
+2025-06-14 22:33:54,805 - root - INFO - Registered tool: get_document_count
+2025-06-14 22:33:54,805 - root - INFO - Registered tool: query_vector_store
+2025-06-14 22:33:54,806 - root - INFO - Registered tool: web_search
+2025-06-14 22:33:54,806 - root - INFO - Registered tool: format_response
+2025-06-14 22:33:54,807 - root - INFO - Registered tool: generate_response
+2025-06-14 22:33:54,807 - root - INFO - Found documents in files_data, checking if indexing needed...
+2025-06-14 22:35:12,406 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
